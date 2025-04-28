@@ -1,0 +1,17 @@
+{
+	"name": "LS_AzureSQL_DB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "demoserver229922.database.windows.net",
+			"database": "DemoSql-database",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "dbdot",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY4Q0I2NTJGLUM0MDgtNEM1Qy1CNjc0LURENUYxRTJGODMyRF9kZGMwODdjNC1mZDdmLTQ0NmMtYjliYy00YjZmN2Y1OGE2YzQiDQp9"
+		}
+	}
+}
