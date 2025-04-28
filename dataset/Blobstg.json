@@ -9,9 +9,13 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ProductList.csv",
+				"container": "aqlcon"
 			},
 			"columnDelimiter": ",",
+			"compressionCodec": "bzip2",
+			"compressionLevel": "Optimal",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
