@@ -1,6 +1,17 @@
 {
 	"name": "CopyCu",
 	"properties": {
+		"activities": [
+			{
+				"name": "WaitWW",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
 		"annotations": []
 	}
 }
