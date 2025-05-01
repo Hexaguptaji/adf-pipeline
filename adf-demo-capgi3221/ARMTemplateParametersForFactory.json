@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-demo-capgi3221"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"LS_AzureSQL_DB_password": {
+			"value": ""
+		},
+		"LS_AzureSQL_DB_properties_typeProperties_server": {
+			"value": "demoserver229922.database.windows.net"
+		},
+		"LS_AzureSQL_DB_properties_typeProperties_database": {
+			"value": "DemoSql-database"
+		},
+		"LS_AzureSQL_DB_properties_typeProperties_userName": {
+			"value": "dbdot"
+		}
+	}
+}
