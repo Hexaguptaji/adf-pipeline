@@ -1,0 +1,24 @@
+{
+	"name": "dfProductsMarkup1",
+	"properties": {
+		"type": "Flowlet",
+		"typeProperties": {
+			"sources": [],
+			"sinks": [],
+			"transformations": [
+				{
+					"name": "ProductStream"
+				},
+				{
+					"name": "CalculatedMarkup"
+				}
+			],
+			"scriptLines": [
+				"input(order: 0,",
+				"     allowSchemaDrift: true) ~> ProductStream",
+				"input(order: 1,",
+				"     allowSchemaDrift: true) ~> CalculatedMarkup"
+			]
+		}
+	}
+}
